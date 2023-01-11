@@ -1,0 +1,19 @@
+{
+  "name": "kdl-dts-client",
+  "version": "0.1.0",
+  "description": "KDL Distributed Text Services Client API ",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingsdigitallab/kdl-dts-client.git"
+  },
+  "author": "King's Digital Lab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kingsdigitallab/kdl-dts-client/issues"
+  },
+  "homepage": "https://github.com/kingsdigitallab/kdl-dts-client#readme"
+}
