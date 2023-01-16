@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kingsdigitallab/kdl-dts-client/issues"
   },
-  "homepage": "https://github.com/kingsdigitallab/kdl-dts-client#readme"
+  "homepage": "https://github.com/kingsdigitallab/kdl-dts-client#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
 }
