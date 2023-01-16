@@ -6,7 +6,7 @@
 (function (exports) {
   exports.fetchDTS = async function (panel, service, id, ref, format) {
     let url = getDTSUrl(panel, service, id, ref, format);
-    return await _fetch(url, getFormatFromRequest(service, format));
+    return await fetchContent(url, getFormatFromRequest(service, format));
   };
 
   function getFormatFromRequest(service, format) {
@@ -77,7 +77,7 @@
     return ret;
   }
 
-  async function _fetch(url, format) {
+  async function fetchContent(url, format) {
     let ret = null;
 
     let gfetch = null;
@@ -99,4 +99,6 @@
     }
     return ret;
   }
+  exports.fetchContent = fetchContent
+
 })(typeof exports === "undefined" ? (this["dtsutils"] = {}) : exports);
