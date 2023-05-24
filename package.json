@@ -1,6 +1,6 @@
 {
   "name": "kdl-dts-client",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "KDL Distributed Text Services Client API ",
   "main": "index.js",
   "scripts": {
