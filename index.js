@@ -72,10 +72,6 @@
       }
     }
 
-    console.log(panel)
-    console.log(service)
-    console.log(ret)
-
     return ret;
   }
   exports.getDTSUrl = getDTSUrl;
